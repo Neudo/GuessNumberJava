@@ -12,10 +12,10 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.util.Random;
 
 public class Gameguessnumber extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,8 +45,6 @@ public class Gameguessnumber extends AppCompatActivity {
         TextView tryLeftText = findViewById(R.id.tryLeft);
         String userInput = editText.getText().toString();
         TextView scoreTextView = findViewById(R.id.score);
-
-
 
 
         if (!userInput.isEmpty()) {
